@@ -61,7 +61,9 @@
         <a href="#">This is a link styled using external CSS</a>
     </body>
 </html>
-#CSS FILE
+
+# CSS FILE
+
 /* External CSS file to style the entire webpage */
 
 /* Change the background color of the webpage */
