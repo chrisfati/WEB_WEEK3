@@ -32,16 +32,16 @@
         <style>
             
         h1 {
-            color: blue; /* Changes the color of all <h1> elements to blue */
+            color: blue;
         }
 
         p {
-            font-size: 18px; /* Sets the font size of all <p> elements */
-            font-family: Arial, sans-serif; /* Sets the font style of all <p> elements */
+            font-size: 18px;
+            font-family: Arial, sans-serif;
         }
 
         .highlight {
-            background-color: yellow; /* Adds a yellow background for elements with class 'highlight' */
+            background-color: yellow;
         }
     </style>
 
@@ -66,20 +66,17 @@
 
 /* External CSS file to style the entire webpage */
 
-/* Change the background color of the webpage */
 body {
-    background-color: #f4f4f9; /* Light gray background */
-}
+    background-color: #f4f4f9;
 
-/* Style for links with hover effects */
 a {
-    color: #333; /* Default link color */
-    text-decoration: none; /* Remove underline from links */
+    color: #333;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #ff5733; /* Change link color when hovered */
-    text-decoration: underline; /* Add underline when hovered */
+    color: #ff5733;
+    text-decoration: underline;
 }
 
 # PART-3
@@ -92,7 +89,6 @@ a:hover {
 
     <!-- Internal CSS -->
     <style>
-        /* Global styles */
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f4f4f9;
@@ -103,33 +99,27 @@ a:hover {
             align-items: center;
             height: 100vh;
         }
-
-        /* Card container */
         .card {
-            background-color: #ffffff; /* Light background color */
-            border: 1px solid #ddd; /* Subtle border */
-            border-radius: 8px; /* Rounded corners */
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
             width: 300px;
-            margin: 20px; /* Margin around the card */
-            padding: 20px; /* Padding inside the card */
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Light shadow */
-            text-align: center; /* Center-align the content */
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
         }
-
-        /* Card title */
         .card-title {
-            font-size: 24px; /* Font size */
-            font-weight: bold; /* Bold text */
-            color: #333; /* Dark text color */
-            margin-bottom: 10px; /* Spacing between title and paragraph */
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
         }
-
-        /* Card description */
         .card-description {
-            font-size: 16px; /* Font size */
-            color: #666; /* Gray color for description */
-            text-align: justify; /* Justify paragraph text */
-            line-height: 1.6; /* Line height for better readability */
+            font-size: 16px;
+            color: #666;
+            text-align: justify;
+            line-height: 1.6;
         }
     </style>
 </head>
